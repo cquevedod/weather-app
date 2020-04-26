@@ -1,7 +1,7 @@
 export class Weather {
 
     constructor(city, countryCode) {
-        this.apiKey = ''; //Go to the URI in the line 10 and get your API key
+        this.apiKey = ''; //Go to the URI in the line 10 and get your API key 
         this.city = city;
         this.countryCode = countryCode;
     }
