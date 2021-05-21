@@ -1,7 +1,7 @@
 export class Weather {
 
     constructor(city, countryCode) {
-        this.apiKey = ''; //Go to the URI in the line 10 and get your API key 
+        this.apiKey = 'b8a8985ea1b776c04db830b466e90871'; //Go to https://api.openweathermap.org/ and get your API key 
         this.city = city;
         this.countryCode = countryCode;
     }
